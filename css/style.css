@@ -38,6 +38,19 @@ img {
     margin-bottom: 1rem;
 }
 
+/* button */
+.btn{
+    display: inline-block;
+    font-size: 1.5rem;
+    background-color: #0bd;
+    color: #fff;
+    border-radius: 8px;
+    padding: .75rem 1.5rem;
+}
+.btn:hover{
+    background-color: #0090aa;
+}
+
 /* header */
 .page-header {
     padding-top: .5rem;
