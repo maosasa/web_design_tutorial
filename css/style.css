@@ -31,6 +31,11 @@ img {
     margin-top: 2rem;
     line-height: 1.4;
 }
+.heading-large{
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 1rem;
+}
 
 /* header */
 .page-header {
@@ -60,4 +65,13 @@ img {
 }
 .cover-home{
     background-image: url(../images/cover-home-s.webp);
+}
+
+.about {
+    max-width: 736px;
+    padding: 0 1.5rem;
+    margin: 3rem auto 4rem;
+}
+.about p{
+    margin-bottom: 3rem;
 }
