@@ -16,6 +16,11 @@ img {
 }
 
 /* layout */
+.wrapper{
+    max-width: 1120px;
+    margin: auto;
+    padding: 0 1.5rem;
+}
 .align-center {
     text-align: center;
 }
@@ -72,7 +77,7 @@ img {
 .main-nav a:hover{
     color:#0bd
 }
-
+/* HOME */
 .cover{
     background-size: cover;
     background-position: center bottom;
@@ -124,4 +129,41 @@ img {
     text-align: center;
     padding: 2rem 0;
     margin-top: 6rem;
+}
+
+/* Desktop */
+@media (min-width: 800px){
+    /* heading */
+    .page-title{
+        font-size: 5rem;
+    }
+    .heading-large{
+        font-size: 4rem;
+    }
+
+    /* header */
+    .page-header{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 1.5rem;
+    }
+    .main-nav{
+        font-size: 2rem;
+    }
+    /* HOME */
+    .cover-home{
+        background-image: url(../images/cover-home-l.webp);
+    }
+    .about {
+        margin: 4rem auto 0;
+    }
+
+    /* footer */
+    .page-footer {
+        background-image: url(../images/footer-l.webp);
+        padding-top: 12rem;
+    }
+    .info th {
+        padding-left: 2.5rem;
+    }
 }
