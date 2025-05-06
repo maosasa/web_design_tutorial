@@ -31,7 +31,8 @@ img {
     font-weight: normal;
 }
 .page-title,
-.heading-large{
+.heading-large,
+.heading-medium{
     font-size: 3rem;
     text-align: center;
 }
@@ -146,6 +147,27 @@ img {
 .post p{
     margin-bottom: 1.5rem;
     line-height: 2;
+}
+
+/* side bar */
+/* .side-bar{
+    width: 200px;
+} */
+.side-menu{
+    list-style: none;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+.side-menu li{
+    border-bottom: 1px solid #c9c2bc;
+}
+.side-menu a{
+    color: #432;
+    display: block;
+    padding: 1rem;
+}
+.side-menu a:hover{
+    color: #0bd;
 }
 
 /* footer */
