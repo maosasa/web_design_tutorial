@@ -58,6 +58,11 @@ img {
     background-color: #0090aa;
 }
 
+/* iframe */
+iframe{
+    width: 100%;
+}
+
 /* header */
 .page-header {
     padding-top: .5rem;
@@ -184,6 +189,49 @@ img {
 }
 .item p{
     font-size: .875rem;
+}
+
+/* CONTACT */
+.cover-contact{
+    background-image: url(../images/cover-contact-s.webp);
+}
+.location{
+    margin-bottom: 3.5rem;
+}
+.location-info{
+    margin-bottom: 2rem;
+}
+.location-info .info{
+    padding: 0;
+}
+
+/* email */
+.email{
+    max-width: 916px;
+    background-color: #faf7f0;
+    padding: 1rem 2.5rem 2.5rem;
+    border-radius: 48px;
+    margin: 0 auto 2rem;
+}
+.email p{
+    margin: 1rem 0 2rem;
+}
+
+/* sns */
+.sns{
+    background-color: #c9c2bc;
+}
+.sns-item{
+    margin-bottom: 2rem;
+}
+.sns-item .heading-medium{
+    margin-bottom: .5rem;
+}
+.sns-youtube{
+    aspect-ratio: 16/9;
+}
+.sns-youtube iframe{
+    height: 100%;
 }
 
 /* footer */
