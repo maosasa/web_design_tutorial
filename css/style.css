@@ -261,7 +261,6 @@ img {
     /* NEWS */
     .cover-news{
         background-image: url(../images/cover-news-l.webp);
-
     }
     .news-contents{
         display: flex;
@@ -276,6 +275,21 @@ img {
     .sidebar .heading-medium{
         line-height: 1;
         margin-bottom: 1rem;
+    }
+
+    /* MENU */
+    .cover-menu{
+        background-image: url(../images/cover-menu-l.webp);
+    }
+    .grid{
+        gap: 3rem 2rem;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .item img{
+        margin-bottom: .5rem;
+    }
+    .item p{
+        font-size: 1rem;
     }
 
     /* footer */
