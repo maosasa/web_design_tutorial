@@ -348,6 +348,36 @@ iframe{
         width: 100%;
     }
 
+    /* CONTACTT */
+    .cover-contact{
+        background-image: url(../images/cover-contact-l.webp);
+    }
+    .location{
+        display: flex;
+        gap: 2rem;
+    }
+    .location-info{
+        width: 32%;
+    }
+    .location-info .info th{
+        padding-left: 2rem;
+    }
+    .location-map{
+        width: 64%;
+    }
+    .email{
+        margin-bottom: 4rem;
+    }
+    .sns{
+        display: flex;
+        gap: 2rem;
+        align-items: flex-start;
+        margin-bottom: 0;
+    }
+    .sns-item{
+        flex: 1;
+    }
+
     /* footer */
     .page-footer {
         background-image: url(../images/footer-l.webp);
